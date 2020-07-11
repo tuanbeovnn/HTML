@@ -1,0 +1,21 @@
+{
+  "name": "beeclear",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.3.1",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-util": "^3.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "scss": "gulp sass"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

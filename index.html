@@ -3,43 +3,10 @@
 
 <head>
 	<title>TakMag</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./sass/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://kit.fontawesome.com/f735041b53.js" crossorigin="anonymous"></script>
-
-	<style>
-		/*  responsive mobile */
-		@media (max-width: 576px) {
-			
-			/* .content_tek {
-				padding: 0 20px;
-			}
-
-			.content_tek .section_first {
-				flex-direction: column;
-			} */
-		}
-
-		/*  responsive  tablet */
-		@media (max-width: 768px) {
-
-		}
-
-		/*  responsive laptop */
-		@media (max-width: 992px) {
-
-		}
-
-		/*  responsive desktop */
-		@media (max-width: 1024px) {
-
-		}	
-
-		/*  responsive macbook */
-		@media (max-width: 1280px) {
-
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="./sass/responsive.css">
 </head>
 
 <body>
@@ -88,36 +55,77 @@
 			</div>
 
 			<div class="header_menu">
-				<div class="big_menu">
-					<nav class="menu">
-						<ul class="menu_list">
-							<li><a href="#home">Home</a></li>
-							<li><a href="#news">Joomla</a></li>
-							<li><a href="#contact">Bonus pages</a></li>
-							<li><a href="#about">Shortcodes</a></li>
-							<li><a href="#about">K2</a></li>
-							<li><a href="#about">Camera</a></li>
-							<li><a href="#about">Laptop</a></li>
-							<!-- <div class="searchInfo">
-							
-								<button><i class="fas fa-search-plus fa-2x"></i></button>
-								<div class="menu_language">
-									<img src="images/en.gif">
-								</div>
-							</div> -->
-						</ul>
+				<div class="navbar">
+					<a href="#home">Home</a>
+					<div class="dropdown">
+						<button class="dropbtn">Joomla
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a>
+							<a href="#">Link 3</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn">Bonus pages
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a>
+							<a href="#">Link 3</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn">Shortcodes
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a>
+							<a href="#">Link 3</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn">K2
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a>
+							<a href="#">Link 3</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn">Camera
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a>
+							<a href="#">Link 3</a>
+						</div>
+					</div>
+					<div class="dropdown">
+						<button class="dropbtn">Laptop
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a>
+							<a href="#">Link 3</a>
+						</div>
+					</div>
+					<div class="menu_list_search">
+						<button><i class="fas fa-search-plus fa-2x"></i></button>
+						<div class="language">
+							<img src="images/en.gif">
+						</div>
+					</div>
+				</div>
+				<div>
 
-						<ul class="menu_list_search">
-							<li class="btn_search">
-								<button><i class="fas fa-search-plus fa-2x"></i></button>
-
-							</li>
-							<li class="language">
-								<img src="images/en.gif">
-							</li>
-						</ul>
-
-					</nav>
 				</div>
 			</div>
 		</header>
@@ -130,7 +138,9 @@
 					<div class="content_section">
 						<div class="img_section_comment">
 							<div class="img_size">
-								<img src="images/slide-4.jpg">
+								<div class="img_hover">
+									<img src="images/slide-4.jpg">
+								</div>
 								<div class="content_home">
 									<div>
 										<h2>Tames pede elit</h2>
@@ -158,26 +168,40 @@
 												velit
 												ullamcorper”
 											</p>
-											<img src="images/slide-10.jpg">
+											<div class="img_hover">
+												<img src="images/slide-10.jpg">
+											</div>
+											
 											<div class="product_coming">
 												<ul>
 													<li>
-														<img src="images/slide-1.jpg">
+														<div class="img_hover">
+															<img src="images/slide-1.jpg">
+														</div>
+														
 													</li>
 												</ul>
 												<ul>
 													<li>
-														<img src="images/slide-2.jpg">
+														<div class="img_hover">
+															<img src="images/slide-2.jpg">
+														</div>
+														
 													</li>
 												</ul>
 												<ul>
 													<li>
-														<img src="images/slide-3.jpg">
+														<div class="img_hover">
+															<img src="images/slide-3.jpg">
+														</div>
+														
 													</li>
 												</ul>
 												<ul>
 													<li>
-														<img src="images/slide-1.jpg">
+														<div class="img_hover">
+															<img src="images/slide-1.jpg">
+														</div>
 													</li>
 												</ul>
 											</div>
@@ -188,7 +212,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="comment_top">
+					<div class="comment_top" id="comment_top">
 						<div class="title">
 							<h2>Top comments</h2>
 						</div>
@@ -253,7 +277,10 @@
 									</li>
 								</ul>
 								<ul class="menu_list_phone">
-									<li><a href="#home">All</a></li>
+									<li>
+										<a href="#home">All</a>
+
+									</li>
 									<li><a href="#news">Camera</a></li>
 									<li><a href="#contact">Laptop</a></li>
 									<li><a href="#about">Tablet</a></li>
@@ -266,30 +293,37 @@
 						<div class="smart_content">
 							<ul class="content">
 								<li>
-									<img src="images/slide-11.jpg">
+									<div class="img_hover">
+										<img src="images/slide-11.jpg">
+									</div>
 									<p>Lorem ipsum dolor sit amet</p>
 									<div class="like">
-										<i class="fas fa-thumbs-up"> Thích</i>
+										<i class="fas fa-thumbs-up" id="fa-thumbs-up"> Thích</i>
 										<i class="fa fa-comment"> 0 comments</i>
-										
+
 									</div>
 								</li>
 								<li>
-									<img src="images/slide-12.jpg">
+									<div class="img_hover">
+										<img src="images/slide-12.jpg">
+									</div>
 									<p>Lorem ipsum dolor sit amet</p>
 									<div class="like">
-										<i class="fas fa-thumbs-up"> Thích</i>
+										<i class="fas fa-thumbs-up" id="fa-thumbs-up"> Thích</i>
 										<i class="fa fa-comment"> 0 comments</i>
-										
+
 									</div>
 								</li>
 								<li>
-									<img src="images/slide-13.jpg">
+									<div class="img_hover">
+										<img src="images/slide-13.jpg">
+									</div>
+									
 									<p>Lorem ipsum dolor sit amet</p>
 									<div class="like">
-										<i class="fas fa-thumbs-up"> Thích</i>
+										<i class="fas fa-thumbs-up" id="fa-thumbs-up"> Thích</i>
 										<i class="fa fa-comment"> 0 comments</i>
-										
+
 									</div>
 								</li>
 							</ul>
@@ -297,30 +331,37 @@
 						<div class="smart_content">
 							<ul class="content">
 								<li>
-									<img src="images/slide-14.jpg">
+									<div class="img_hover">
+										<img src="images/slide-14.jpg">
+									</div>
 									<p>Lorem ipsum dolor sit amet</p>
 									<div class="like">
-										<i class="fas fa-thumbs-up"> Thích</i>
+										<i class="fas fa-thumbs-up" id="fa-thumbs-up"> Thích</i>
 										<i class="fa fa-comment"> 0 comments</i>
-										
 									</div>
 								</li>
 								<li>
-									<img src="images/slide-15.jpg">
+									<div class="img_hover">
+										<img src="images/slide-15.jpg">
+									</div>
+									
 									<p>Lorem ipsum dolor sit amet</p>
 									<div class="like">
-										<i class="fas fa-thumbs-up"> Thích</i>
+										<i class="fas fa-thumbs-up" id="fa-thumbs-up"> Thích</i>
 										<i class="fa fa-comment"> 0 comments</i>
-										
+
 									</div>
 								</li>
 								<li>
-									<img src="images/slide-16.jpg">
+									<div class="img_hover">
+										<img src="images/slide-16.jpg">
+									</div>
+									
 									<p>Lorem ipsum dolor sit amet</p>
 									<div class="like">
-										<i class="fas fa-thumbs-up"> Thích</i>
+										<i class="fas fa-thumbs-up" id="fa-thumbs-up"> Thích</i>
 										<i class="fa fa-comment"> 0 comments</i>
-										
+
 									</div>
 								</li>
 							</ul>
@@ -358,26 +399,35 @@
 						<div class="smart_content">
 							<ul class="content">
 								<li>
-									<img src="images/slide-17.jpg">
+									<div class="img_hover">
+										<img src="images/slide-17.jpg">
+									</div>
+									
 									<p>Lorem ipsum dolor sit amet</p>
 									<div class="like">
-										<i class="fas fa-thumbs-up"> Thích</i>
+										<i class="fas fa-thumbs-up" id="fa-thumbs-up"> Thích</i>
 										<i class="fa fa-comment"> 0 comments</i>
 									</div>
 								</li>
 								<li>
-									<img src="images/slide-18.jpg">
+									<div class="img_hover">
+										<img src="images/slide-18.jpg">
+									</div>
+									
 									<p>Lorem ipsum dolor sit amet</p>
 									<div class="like">
-										<i class="fas fa-thumbs-up"> Thích</i>
+										<i class="fas fa-thumbs-up" id="fa-thumbs-up"> Thích</i>
 										<i class="fa fa-comment"> 0 comments</i>
 									</div>
 								</li>
 								<li>
-									<img src="images/slide-19.jpg">
+									<div class="img_hover">
+										<img src="images/slide-19.jpg">
+									</div>
+									
 									<p>Lorem ipsum dolor sit amet</p>
 									<div class="like">
-										<i class="fas fa-thumbs-up"> Thích</i>
+										<i class="fas fa-thumbs-up" id="fa-thumbs-up"> Thích</i>
 										<i class="fa fa-comment"> 0 comments</i>
 									</div>
 								</li>
@@ -386,26 +436,35 @@
 						<div class="smart_content">
 							<ul class="content">
 								<li>
-									<img src="images/slide-20.jpg">
+									<div class="img_hover">
+										<img src="images/slide-20.jpg">
+									</div>
+									
 									<p>Lorem ipsum dolor sit amet</p>
 									<div class="like">
-										<i class="fas fa-thumbs-up"> Thích</i>
+										<i class="fas fa-thumbs-up" id="fa-thumbs-up"> Thích</i>
 										<i class="fa fa-comment"> 0 comments</i>
 									</div>
 								</li>
 								<li>
-									<img src="images/slide-21.jpg">
+									<div class="img_hover">
+										<img src="images/slide-21.jpg">
+									</div>
+									
 									<p>Lorem ipsum dolor sit amet</p>
 									<div class="like">
-										<i class="fas fa-thumbs-up"> Thích</i>
+										<i class="fas fa-thumbs-up" id="fa-thumbs-up"> Thích</i>
 										<i class="fa fa-comment"> 0 comments</i>
 									</div>
 								</li>
 								<li>
-									<img src="images/slide-22.jpg">
+									<div class="img_hover">
+										<img src="images/slide-22.jpg">
+									</div>
+									
 									<p>Lorem ipsum dolor sit amet</p>
 									<div class="like">
-										<i class="fas fa-thumbs-up"> Thích</i>
+										<i class="fas fa-thumbs-up" id="fa-thumbs-up"> Thích</i>
 										<i class="fa fa-comment"> 0 comments</i>
 									</div>
 								</li>
@@ -422,7 +481,10 @@
 			<!-- bên tay phải -->
 			<aside class="advertisement">
 				<div class="advertisement_menu">
-					<img src="images/slide-9.jpg">
+					<div class="img_hover">
+						<img src="images/slide-9.jpg">
+					</div>
+					
 					<div class="newLetter">
 						<h1>Newletter</h1>
 						<div class="content_adv">
@@ -459,7 +521,7 @@
 									<p>Like</p>
 								</div>
 							</div>
-							
+
 						</div>
 						<div class="social">
 							<div class="fb_socical link_color">
@@ -476,14 +538,14 @@
 									<p>Like</p>
 								</div>
 							</div>
-							
+
 						</div>
 					</div>
 
 					<div class="popular_tags">
 						<h1>Popular Tags</h1>
 						<div class="tag">
-							<a href="">Biturluctus	</a>
+							<a href="">Biturluctus </a>
 							<a href="">Citen</a>
 							<a href="">Content</a>
 							<a href="">Enki</a>
@@ -513,7 +575,7 @@
 								</li>
 							</ul>
 						</div>
-	
+
 						<ul class="weekdays">
 							<li>Mo</li>
 							<li>Tu</li>
@@ -523,7 +585,7 @@
 							<li>Sa</li>
 							<li>Su</li>
 						</ul>
-	
+
 						<ul class="days">
 							<li>1</li>
 							<li>2</li>
@@ -578,8 +640,8 @@
 							</div>
 						</div>
 					</div>
-					
-					
+
+
 				</div>
 			</aside>
 		</div>
@@ -617,18 +679,18 @@
 								<div>
 									<p>Address : No 40 Baria Sreet 133/2 NewYork City, NY,United States</p>
 								</div>
-								
+
 							</div>
-							
+
 						</li>
-						 <li>
+						<li>
 							<div class="icon">
 								<i class="fas fa-envelope fa-1x"></i>
 								<div>
 									<p>Email : Support@shopname.com</p>
 								</div>
 							</div>
-							
+
 						</li>
 						<li>
 							<div class="icon">
@@ -636,7 +698,7 @@
 								<div>
 									<p> Phone1 : 0123-4567-8910
 										<br>
-									Phone2 : 0123-4567-8910</p>
+										Phone2 : 0123-4567-8910</p>
 								</div>
 							</div>
 						</li>
@@ -738,6 +800,7 @@
 
 		</div>
 	</footer>
-	
+
 </body>
+
 </html>

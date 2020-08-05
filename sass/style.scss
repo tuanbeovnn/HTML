@@ -248,6 +248,9 @@
                                 .img_hover {
                                     overflow: hidden;
                                 }
+                                p:hover {
+                                    color: #478BCA;
+                                }
                                 .img_hover:hover {
                                     img {
                                         -ms-transform: scale(1.1); /* IE 9 */
@@ -273,9 +276,21 @@
                             }
                         }
                     }
-
+                    hr {
+                        margin: unset;
+                    }
                     .content_more {
-                        text-align: center;
+                        height: 40px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        h3 {
+                            margin: unset;
+                        }
+                    }
+                    .content_more:hover {
+                        background-color: #478BCA;
                     }
                 }
             }
@@ -332,8 +347,15 @@
                             margin-bottom: 7px;
                         }
 
+                        h3:hover {
+                            color: #478BCA;
+                        }
+
                         i {
                             color: #a8a8a8;
+                        }
+                        i:hover {
+                            color: #478BCA;;
                         }
                     }
 
@@ -377,10 +399,16 @@
     }
 
     .content_home {
+        .title_content {
+            h2:hover {
+                color: #478BCA;
+            }
+        }
         .products {
             .img_hover {
                 overflow: hidden;
             }
+            
             .img_hover:hover {
                 img {
                     -ms-transform: scale(1.1); /* IE 9 */
@@ -462,7 +490,9 @@
 
         .newLetter {
             margin-top: 30px;
-
+            h1 {
+                color: #478BCA;
+            }
             .form_input {
                 .email {
                     display: flex;
@@ -490,17 +520,24 @@
 
                 h4 {
                     margin: 10px 0px;
+                    color: #478BCA;
                 }
 
                 .even_content {
                     img {
                         width: 100%;
                     }
+                    h3:hover {
+                        color: #478BCA;
+                    }
                 }
             }
         }
 
         .video_review {
+            h1 {
+                color: #478BCA;
+            }
             .social {
                 display: flex;
                 justify-content: space-between;
@@ -547,6 +584,9 @@
         }
 
         .popular_tags {
+            h1 {
+                color: #478BCA;
+            }
             .tag {
                 a {
                     display: inline-block;
@@ -556,6 +596,9 @@
                     text-transform: capitalize;
                     color: #666;
                     text-decoration: none;
+                }
+                a:hover {
+                    background-color: #478BCA;
                 }
             }
         }

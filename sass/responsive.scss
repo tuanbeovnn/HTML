@@ -91,7 +91,28 @@
 
 /*  responsive desktop */
 @media (max-width: 1024px) {
-    
+    .content_tek {
+        
+        .section_first {
+            .section_tt {
+                .smartphonett {
+                   .section_smartphone {
+                       .smart_content {
+                           .content {
+                               li {
+                                   .like {
+                                       #fa-thumbs-up {
+                                           width: 57%;
+                                       }
+                                   }
+                               }
+                           }
+                       }
+                   }
+                }
+            }
+        }
+    }
     .footer {
         .footer_content {
             .text {

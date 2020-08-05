@@ -374,6 +374,10 @@
   overflow: hidden;
 }
 
+.content_tek .section_first .section_tt .smartphonett .section_smartphone .smart_content .content li p:hover {
+  color: #478BCA;
+}
+
 .content_tek .section_first .section_tt .smartphonett .section_smartphone .smart_content .content li .img_hover:hover img {
   /* IE 9 */
   -webkit-transform: scale(1.1);
@@ -393,8 +397,30 @@
   color: white;
 }
 
+.content_tek .section_first .section_tt .smartphonett .section_smartphone hr {
+  margin: unset;
+}
+
 .content_tek .section_first .section_tt .smartphonett .section_smartphone .content_more {
-  text-align: center;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.content_tek .section_first .section_tt .smartphonett .section_smartphone .content_more h3 {
+  margin: unset;
+}
+
+.content_tek .section_first .section_tt .smartphonett .section_smartphone .content_more:hover {
+  background-color: #478BCA;
 }
 
 .content_tek .section_first .content_section {
@@ -451,8 +477,16 @@
   margin-bottom: 7px;
 }
 
+.content_tek .section_first .comment_top .list_comment .list li h3:hover {
+  color: #478BCA;
+}
+
 .content_tek .section_first .comment_top .list_comment .list li i {
   color: #a8a8a8;
+}
+
+.content_tek .section_first .comment_top .list_comment .list li i:hover {
+  color: #478BCA;
 }
 
 .content_tek .section_first .comment_top .list_comment .list .img_comment {
@@ -490,6 +524,10 @@
   -webkit-transform: scale(1.1);
   /* Safari 3-8 */
   transform: scale(1.1);
+}
+
+.content_tek .content_home .title_content h2:hover {
+  color: #478BCA;
 }
 
 .content_tek .content_home .products .img_hover {
@@ -595,6 +633,10 @@
   margin-top: 30px;
 }
 
+.content_tek .advertisement .newLetter h1 {
+  color: #478BCA;
+}
+
 .content_tek .advertisement .newLetter .form_input .email {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -624,10 +666,19 @@
 
 .content_tek .advertisement .newLetter .even h4 {
   margin: 10px 0px;
+  color: #478BCA;
 }
 
 .content_tek .advertisement .newLetter .even .even_content img {
   width: 100%;
+}
+
+.content_tek .advertisement .newLetter .even .even_content h3:hover {
+  color: #478BCA;
+}
+
+.content_tek .advertisement .video_review h1 {
+  color: #478BCA;
 }
 
 .content_tek .advertisement .video_review .social {
@@ -681,6 +732,10 @@
   color: white;
 }
 
+.content_tek .advertisement .popular_tags h1 {
+  color: #478BCA;
+}
+
 .content_tek .advertisement .popular_tags .tag a {
   display: inline-block;
   border: 1px solid #e5e5e5;
@@ -689,6 +744,10 @@
   text-transform: capitalize;
   color: #666;
   text-decoration: none;
+}
+
+.content_tek .advertisement .popular_tags .tag a:hover {
+  background-color: #478BCA;
 }
 
 .content_tek .advertisement .cal {

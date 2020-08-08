@@ -78,6 +78,7 @@
         padding: 0 170px;
         background-color: #1c1c1c;
         .navbar {
+            display: flex;
             a {
                 text-decoration: none;
             }
@@ -85,7 +86,14 @@
             nav {
                 font-family: monospace;
             }
-    
+            .w-70 {
+                width: 70%;
+            }
+            .w-30 {
+                width: 30%;
+                display: flex;
+                justify-content: flex-end;
+            }
             ul {
                 background: #478BCA;
                 list-style: none;

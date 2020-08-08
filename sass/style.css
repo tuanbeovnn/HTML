@@ -188,12 +188,32 @@
   background-color: #1c1c1c;
 }
 
+.header_section .header_menu .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .header_section .header_menu .navbar a {
   text-decoration: none;
 }
 
 .header_section .header_menu .navbar nav {
   font-family: monospace;
+}
+
+.header_section .header_menu .navbar .w-70 {
+  width: 70%;
+}
+
+.header_section .header_menu .navbar .w-30 {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .header_section .header_menu .navbar ul {

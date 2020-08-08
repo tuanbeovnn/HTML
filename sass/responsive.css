@@ -78,4 +78,25 @@
     padding: 0 100px;
   }
 }
+
+/*  responsive monitor */
+@media (max-width: 1366px) {
+  .header_section .header,
+  .header_section .carousel,
+  .header_section .header_menu {
+    padding: 0 100px !important;
+  }
+  .content_tek {
+    padding: 0 100px;
+  }
+  .content_tek .section_first .section_tt .section_home .content_section .content_home .products .product_coming ul li {
+    width: 23%;
+  }
+  .content_tek .section_first .section_tt .section_home #comment_top .banner img {
+    width: 80%;
+  }
+  .footer {
+    padding: 0 100px;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */

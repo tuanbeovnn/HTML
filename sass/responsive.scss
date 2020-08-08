@@ -172,3 +172,57 @@
         padding: 0 100px;
     }
 }
+
+/*  responsive monitor */
+@media (max-width: 1366px) {
+    .header_section {
+        .header,
+        .carousel,
+        .header_menu {
+            padding: 0 100px !important;
+        }
+    }
+
+    .content_tek {
+        padding: 0 100px;
+        .section_first {
+            .section_tt {
+                .section_home {
+                    .content_section {
+                        .content_home {
+                            .products {
+                                .product_coming {
+                                    ul {
+                                        li {
+                                            width: 23%;
+                                        }
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    #comment_top {
+                        .banner {
+                            img {
+                                width: 80%;
+                            }
+                        }
+                        .title {
+                            h2 {
+                                
+                            }
+                        }
+                    }
+                }
+
+                .smartphonett {
+                    
+                }
+            }
+        }
+    }
+    .footer {
+        padding: 0 100px;
+    }
+}

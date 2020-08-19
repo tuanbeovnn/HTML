@@ -124,7 +124,7 @@
                     #comment_top {
                         .banner {
                             img {
-                                width: 88% !important;
+                                width: 92% !important;
                             }
                         }
                     }
@@ -167,6 +167,15 @@
                     .newLetter,.video_review,.popular_tags {
                         width: 79%;
                     }
+                    .newLetter {
+                        .even {
+                            .even_content {
+                                .even_img {
+                                    height: 100px;
+                                }
+                            }
+                        }
+                    }
                     .cal {
                         width: 79%;
                         .days {
@@ -205,8 +214,16 @@
             .section_tt {
                 .section_home {
                     .content_section {
+                        #img_section_comment {
+                            .img_hover_home {
+                                height: 266px;
+                            }
+                        }
                         .content_home {
                             .products {
+                                #img_hover {
+                                    height: 266px;
+                                }
                                 .product_coming {
                                     ul {
                                         width: 23%;
@@ -216,9 +233,9 @@
                         }
                     }
                     #comment_top {
-                        .banner {
+                        #banner {
                             img {
-                                width: 81%;
+                                width: 92% ;
                             }
                         }
                         .title {
@@ -231,6 +248,18 @@
 
                 .smartphonett {
                     width: 97%;
+                }
+            }
+            .advertisement {
+                .advertisement_menu {
+                    #img_hover {
+                        height: 393px;;
+                    }
+                    .video_review {
+                        .img_video {
+                            height: 149px;
+                        }
+                    }
                 }
             }
         }
@@ -256,8 +285,16 @@
             .section_tt {
                 .section_home {
                     .content_section {
+                        .img_section_comment {
+                            .img_hover_home {
+                                height: 283px;
+                            }
+                        }
                         .content_home {
                             .products {
+                                .img_hover {
+                                    height: 282px;
+                                }
                                 .product_coming {
                                     ul {
                                         width: 100%;
@@ -271,9 +308,31 @@
                         }
                     }
                     #comment_top {
+                        .list_comment {
+                            .even {
+                                .img {
+                                    .img_text {
+                                        width: 52%;
+                                        p {
+                                            margin: unset;
+                                        }
+                                    }
+                                }
+                            }
+                            .odd {
+                                .img {
+                                    .img_text {
+                                        width: 52%;
+                                        p {
+                                            margin: unset;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                         .banner {
                             img {
-                                width: 77%;
+                                width: 95%;
                             }
                         }
                         .title {
@@ -285,7 +344,35 @@
                 }
 
                 .smartphonett {
-                    
+                    .menu_phone {
+                        .smartPhone {
+                            .menu {
+                                .w-55 {
+                                    width: 45%;
+                                }
+                                .w-45 {
+                                    width: 55%;
+                                }
+                            }
+                        }
+                    }
+                    .section_smartphone {
+                        .smart_content {
+                            .content {
+                                .img_hover {
+                                    height: 128px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .advertisement {
+                .advertisement_menu {
+                    .img_hover {
+                        height: 412px;
+                    }
                 }
             }
         }

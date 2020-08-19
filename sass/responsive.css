@@ -54,7 +54,7 @@
     width: unset;
   }
   .content_tek .section_first .section_tt .section_home #comment_top .banner img {
-    width: 88% !important;
+    width: 92% !important;
   }
   .content_tek .section_first .section_tt .smartphonett .menu_phone .smartPhone .menu .w-55 {
     width: 45%;
@@ -70,6 +70,9 @@
   }
   .content_tek .section_first .advertisement .advertisement_menu .newLetter, .content_tek .section_first .advertisement .advertisement_menu .video_review, .content_tek .section_first .advertisement .advertisement_menu .popular_tags {
     width: 79%;
+  }
+  .content_tek .section_first .advertisement .advertisement_menu .newLetter .even .even_content .even_img {
+    height: 100px;
   }
   .content_tek .section_first .advertisement .advertisement_menu .cal {
     width: 79%;
@@ -95,17 +98,29 @@
   .content_tek {
     padding: 0 100px;
   }
+  .content_tek .section_first .section_tt .section_home .content_section #img_section_comment .img_hover_home {
+    height: 266px;
+  }
+  .content_tek .section_first .section_tt .section_home .content_section .content_home .products #img_hover {
+    height: 266px;
+  }
   .content_tek .section_first .section_tt .section_home .content_section .content_home .products .product_coming ul {
     width: 23%;
   }
-  .content_tek .section_first .section_tt .section_home #comment_top .banner img {
-    width: 81%;
+  .content_tek .section_first .section_tt .section_home #comment_top #banner img {
+    width: 92%;
   }
   .content_tek .section_first .section_tt .section_home #comment_top .title h2 {
     margin: unset;
   }
   .content_tek .section_first .section_tt .smartphonett {
     width: 97%;
+  }
+  .content_tek .section_first .advertisement .advertisement_menu #img_hover {
+    height: 393px;
+  }
+  .content_tek .section_first .advertisement .advertisement_menu .video_review .img_video {
+    height: 149px;
   }
   .footer {
     padding: 0 100px;
@@ -122,14 +137,44 @@
   .content_tek {
     padding: 0 100px;
   }
+  .content_tek .section_first .section_tt .section_home .content_section .img_section_comment .img_hover_home {
+    height: 283px;
+  }
+  .content_tek .section_first .section_tt .section_home .content_section .content_home .products .img_hover {
+    height: 282px;
+  }
   .content_tek .section_first .section_tt .section_home .content_section .content_home .products .product_coming ul {
     width: 100%;
   }
   .content_tek .section_first .section_tt .section_home .content_section .content_home .products .product_coming ul li {
     width: 23%;
   }
+  .content_tek .section_first .section_tt .section_home #comment_top .list_comment .even .img .img_text {
+    width: 52%;
+  }
+  .content_tek .section_first .section_tt .section_home #comment_top .list_comment .even .img .img_text p {
+    margin: unset;
+  }
+  .content_tek .section_first .section_tt .section_home #comment_top .list_comment .odd .img .img_text {
+    width: 52%;
+  }
+  .content_tek .section_first .section_tt .section_home #comment_top .list_comment .odd .img .img_text p {
+    margin: unset;
+  }
   .content_tek .section_first .section_tt .section_home #comment_top .banner img {
-    width: 77%;
+    width: 95%;
+  }
+  .content_tek .section_first .section_tt .smartphonett .menu_phone .smartPhone .menu .w-55 {
+    width: 45%;
+  }
+  .content_tek .section_first .section_tt .smartphonett .menu_phone .smartPhone .menu .w-45 {
+    width: 55%;
+  }
+  .content_tek .section_first .section_tt .smartphonett .section_smartphone .smart_content .content .img_hover {
+    height: 128px !important;
+  }
+  .content_tek .section_first .advertisement .advertisement_menu .img_hover {
+    height: 412px;
   }
   .footer {
     padding: 0 100px;
